@@ -216,6 +216,10 @@ label {
     min-width: 150px;
 }
 
+.commonBtn.btn-lg {
+    min-width: 230px;
+    font-size: 17px;
+}
 .btn-primary {
     color: #fff;
     background-color: #87B90E;
