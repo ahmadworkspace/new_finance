@@ -76,7 +76,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-    font-size: 47px;
+    font-size: 45px;
 }
 
 h3, .h3 {
@@ -103,6 +103,9 @@ h6, .h6 {
 .font-weight-medium {
     font-weight: 500;
 }
+.font-weight-semiBold {
+    font-weight: 600;
+}
 
 .text-primary {
     color: #87B90E !important;
@@ -113,7 +116,9 @@ h6, .h6 {
     flex-direction: column;
     min-height: 100vh;
 }
-
+main{
+    min-height: calc(100vh - 380.8px);
+}
 .common-section {
     margin-bottom: 100px;
 }
@@ -176,6 +181,12 @@ h6, .h6 {
     color: #707070;
     font-size: 13px;
     font-weight: 500;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    padding-left: 0;
+    border-color: rgba(112, 112, 112, 0.5);
 }
 
 .form-control:focus {
@@ -184,12 +195,7 @@ h6, .h6 {
 }
 
 select.form-control {
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-radius: 0;
-    padding-left: 0;
-    border-color: rgba(112, 112, 112, 0.5);
+
 }
 
 label {
@@ -253,6 +259,17 @@ label {
     color: #A3DD19;
     background-color: #ffffff;
     border-color: #A3DD19;
+}
+
+.btn-blue {
+    color: #fff;
+    background-color: #2196f3;
+    border-color: #2196f3;
+}
+.btn-blue:hover, .btn-blue:focus{
+    color: #2196f3;
+    background-color: #ffffff;
+    border-color: #2196f3;
 }
 
 .peopleSection {
@@ -743,12 +760,156 @@ footer .nav-link:hover {
         left: -32%;
     }
 }
-
-@media (max-width: 414px) {
-    /*.timeline .right-bottom, .timeline .top-right {*/
-    /*    left: 27%;*/
-    /*}*/
-    /*.timeline .top-left, .timeline .left-bottom {*/
-    /*    left: -33%;*/
-    /*}*/
+.light-yellow{
+    background: rgba(148, 201, 94, 0.06);
 }
+.freeBanner {
+    box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.06);
+    background-color: #ffffff;
+    border-bottom-right-radius: 50%;
+    height: 550px;
+    padding: 50px 100px;
+    margin-left: -15px
+}
+.freeBanner-Btns {
+    margin-top: 100px;
+}
+.freeBanner-Btns .list-inline-item:not(:last-child) {
+    margin-right: 2rem;
+}
+.freeBanner-Btns .btn-primary:hover,
+.freeBanner-Btns .btn-primary:focus
+{
+    color: #fff;
+    background-color: #87B90E;
+    border-color: #87B90E;
+}
+.freeBanner-Btns .btn-blue:hover,
+.freeBanner-Btns .btn-blue:focus
+{
+    color: #fff;
+    background-color: #2196f3;
+    border-color: #2196f3;
+}
+.divider {
+    border-top: 1.5px solid rgba(112, 112, 112, 0.24);
+}
+.loansProducts {
+    width: 226px;
+    height: 198px;
+    padding: 45px 60px;
+    border-radius: 41px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    margin: 80px auto 45px;
+}
+.capitalItem .iconSide {
+    width: 121px;
+    height: 119px;
+    padding: 30px 26px;
+    border-radius: 21px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    margin-right: 20px;
+}
+.capitalItem h5{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.33;
+}
+.capitalItem .content{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.capitalItem {
+    margin-bottom: 50px;
+    align-items: center;
+}
+.faqs-div {
+    min-height: 140px;
+    padding: 14px 30px 15px;
+    border-radius: 11px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+.faqs-div .title{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.faqs-div
+.content {
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+.touchUs-card {
+    padding: 20px 60px 40px;
+    border-radius: 57px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    margin: 80px 0 auto;
+}
+.happens-next-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 135px;
+    padding: 30px 37px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+}
+.happens-next-bottom {
+    width: 140px;
+    height: 100px;
+    padding: 15px 20px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    font-size: 12px;
+    margin-top: 6px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.happens-next-bottom.radius-left {
+    border-bottom-left-radius: 50%;
+}
+.happens-next-bottom.radius-right {
+    border-bottom-right-radius: 50%;
+}
+.happens-next-bottom.radius-bottom-full {
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.happens-next-cards .list-inline-item {
+    vertical-align: middle;
+    margin-bottom: 30px;
+}
+.happens-next-cards .list-inline-item:not(:last-child) {
+    margin-right: 1rem;
+}
+.loans-products-section .divider,
+.helpful-information-section .divider
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.loans-products-section .divider.first,
+.helpful-information-section .divider.first
+{
+    margin-top: 30px;
+}
+.loans-products-section .divider.bottom,
+.helpful-information-section .divider.bottom
+{
+    margin-bottom: 30px;
+}
+
