@@ -103,6 +103,7 @@ h6, .h6 {
 .font-weight-medium {
     font-weight: 500;
 }
+
 .font-weight-semiBold {
     font-weight: 600;
 }
@@ -116,9 +117,11 @@ h6, .h6 {
     flex-direction: column;
     min-height: 100vh;
 }
-main{
+
+main {
     min-height: calc(100vh - 380.8px);
 }
+
 .common-section {
     margin-bottom: 100px;
 }
@@ -226,6 +229,7 @@ label {
     min-width: 230px;
     font-size: 17px;
 }
+
 .btn-primary {
     color: #fff;
     background-color: #87B90E;
@@ -266,7 +270,8 @@ label {
     background-color: #2196f3;
     border-color: #2196f3;
 }
-.btn-blue:hover, .btn-blue:focus{
+
+.btn-blue:hover, .btn-blue:focus {
     color: #2196f3;
     background-color: #ffffff;
     border-color: #2196f3;
@@ -603,11 +608,13 @@ footer .nav-link:hover {
     footer .nav-link {
         padding: .5rem .5rem;
     }
-    .customer-desc{
+
+    .customer-desc {
         padding: 15px;
         height: auto;
     }
-    .timeline .right-bottom, .timeline .top-right{
+
+    .timeline .right-bottom, .timeline .top-right {
         left: 48%;
     }
 }
@@ -644,6 +651,7 @@ footer .nav-link:hover {
     h2, .h2 {
         font-size: 35px;
     }
+
     h3, .h3 {
         font-size: 30px;
     }
@@ -694,17 +702,20 @@ footer .nav-link:hover {
     .jobSection {
         margin-top: 200px;
     }
+
     .timeline .right-bottom, .timeline .top-right {
         left: 34%;
     }
+
     .timeline .top-left,
-    .timeline .left-bottom
-    {
+    .timeline .left-bottom {
         left: -35%;
     }
+
     .timeline .corner {
         border-radius: 10px;
     }
+
     .timeline-section .timeline .col-2 {
         width: 16%;
         max-width: 16%;
@@ -716,6 +727,7 @@ footer .nav-link:hover {
     .peopleSection-boxes {
         position: static;
     }
+
     .peopleSection-boxes .box:not(:last-child) {
         margin-right: 0;
     }
@@ -723,18 +735,22 @@ footer .nav-link:hover {
     .peopleSection-boxes .box {
         width: 100%;
     }
+
     .jobSection {
         margin-top: 0;
         height: auto;
     }
+
     .circle {
         padding: 10px 0;
     }
+
     .circle .inner {
         width: 40px;
         height: 40px;
         font-size: 18px;
     }
+
     .timeline-section .content {
         padding: 35px 0;
     }
@@ -742,27 +758,34 @@ footer .nav-link:hover {
     .contact-media {
         display: block;
     }
-    .contact-media .d-flex{
+
+    .contact-media .d-flex {
         display: none !important;
     }
+
     .repaymentsCard {
         border-radius: 30px;
     }
+
     .common-section {
         margin-bottom: 60px;
     }
 }
+
 @media (max-width: 574px) {
     .timeline .right-bottom, .timeline .top-right {
         left: 20%;
     }
+
     .timeline .top-left, .timeline .left-bottom {
         left: -32%;
     }
 }
-.light-yellow{
+
+.light-yellow {
     background: rgba(148, 201, 94, 0.06);
 }
+
 .freeBanner {
     box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.06);
     background-color: #ffffff;
@@ -771,29 +794,33 @@ footer .nav-link:hover {
     padding: 50px 100px;
     margin-left: -15px
 }
+
 .freeBanner-Btns {
     margin-top: 100px;
 }
+
 .freeBanner-Btns .list-inline-item:not(:last-child) {
     margin-right: 2rem;
 }
+
 .freeBanner-Btns .btn-primary:hover,
-.freeBanner-Btns .btn-primary:focus
-{
+.freeBanner-Btns .btn-primary:focus {
     color: #fff;
     background-color: #87B90E;
     border-color: #87B90E;
 }
+
 .freeBanner-Btns .btn-blue:hover,
-.freeBanner-Btns .btn-blue:focus
-{
+.freeBanner-Btns .btn-blue:focus {
     color: #fff;
     background-color: #2196f3;
     border-color: #2196f3;
 }
+
 .divider {
     border-top: 1.5px solid rgba(112, 112, 112, 0.24);
 }
+
 .loansProducts {
     width: 226px;
     height: 198px;
@@ -803,6 +830,7 @@ footer .nav-link:hover {
     background-color: #ffffff;
     margin: 80px auto 45px;
 }
+
 .capitalItem .iconSide {
     width: 121px;
     height: 119px;
@@ -812,12 +840,14 @@ footer .nav-link:hover {
     background-color: #ffffff;
     margin-right: 20px;
 }
-.capitalItem h5{
+
+.capitalItem h5 {
     font-size: 18px;
     font-weight: 500;
     line-height: 1.33;
 }
-.capitalItem .content{
+
+.capitalItem .content {
     font-size: 12px;
     font-weight: 300;
 }
@@ -826,6 +856,7 @@ footer .nav-link:hover {
     margin-bottom: 50px;
     align-items: center;
 }
+
 .faqs-div {
     min-height: 140px;
     padding: 14px 30px 15px;
@@ -834,7 +865,8 @@ footer .nav-link:hover {
     background-color: #ffffff;
     margin-bottom: 30px;
 }
-.faqs-div .title{
+
+.faqs-div .title {
     font-size: 14px;
     margin-bottom: 10px;
 }
@@ -844,6 +876,7 @@ footer .nav-link:hover {
     font-size: 12px;
     margin-bottom: 4px;
 }
+
 .touchUs-card {
     padding: 20px 60px 40px;
     border-radius: 57px;
@@ -851,6 +884,7 @@ footer .nav-link:hover {
     background-color: #ffffff;
     margin: 80px 0 auto;
 }
+
 .happens-next-top {
     display: flex;
     flex-direction: column;
@@ -864,6 +898,7 @@ footer .nav-link:hover {
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
 }
+
 .happens-next-bottom {
     width: 140px;
     height: 100px;
@@ -882,34 +917,191 @@ footer .nav-link:hover {
 .happens-next-bottom.radius-left {
     border-bottom-left-radius: 50%;
 }
+
 .happens-next-bottom.radius-right {
     border-bottom-right-radius: 50%;
 }
+
 .happens-next-bottom.radius-bottom-full {
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
 }
+
 .happens-next-cards .list-inline-item {
     vertical-align: middle;
     margin-bottom: 30px;
 }
+
 .happens-next-cards .list-inline-item:not(:last-child) {
     margin-right: 1rem;
 }
+
 .loans-products-section .divider,
-.helpful-information-section .divider
-{
+.helpful-information-section .divider {
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
 .loans-products-section .divider.first,
-.helpful-information-section .divider.first
-{
+.helpful-information-section .divider.first {
     margin-top: 30px;
 }
+
 .loans-products-section .divider.bottom,
-.helpful-information-section .divider.bottom
-{
+.helpful-information-section .divider.bottom {
     margin-bottom: 30px;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar-dropdown .dropdown-menu {
+    border-radius: 0;
+    padding: 0;
+    box-shadow: 0 4px 6px 0 rgb(0 0 0 / 16%);
+    border: none;
+}
+
+.navbar-dropdown .dropdown-item {
+    display: block;
+    padding: .5rem 1rem;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0;
+    color: #000000;
+}
+
+.navbar-dropdown .dropdown-item:focus, .navbar-dropdown .dropdown-item:hover {
+    color: #87B90E;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.about-us-banner {
+    padding: 80px 0 0;
+}
+
+.about-us-banner .btn-lg {
+    margin-top: 60px;
+}
+
+.about-finance-section p {
+    margin-bottom: 30px;
+}
+
+.about-finance-section .divider {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.saveMoneyCard {
+    text-align: center;
+    font-size: 12px;
+}
+
+.saveMoneyCard img {
+    width: 103px;
+    height: 87px;
+    margin-bottom: 15px;
+}
+
+.saveMoneyCard .heading {
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.rounded-card {
+    border-radius: 96px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0,  0.16);
+    background-color: #ffffff;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.rounded-card h3 {
+    padding: 30px 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.rounded-card img {
+    border-radius: 96px;
+}
+
+.about-touchUs-section {
+    position: relative;
+    min-height: 400px;
+    padding-top: 30px;
+    margin-bottom: 300px;
+}
+
+.touchUs-card-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding-top: 70px;
+}
+textarea.form-control {
+    resize: none;
+    height: 120px;
+    background: #F4F8FB;
+    padding: 12px;
+    border-radius: 10px;
+    border-bottom: none;
+}
+.commonModal .modal-content{
+    border-radius: 100px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0,  0.16);
+    padding: 30px 60px;
+}
+.commonModal button.close {
+    background-color: #000;
+    border-radius: 50%;
+    width: 21px;
+    height: 21px;
+}
+.commonModal .close {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: none;
+    opacity: 1;
+}
+.commonModal .close:hover{
+    color: #ffffff;
+}
+
+
+@media (max-width: 767px) {
+    .about-touchUs-section {
+        position: relative;
+        min-height: auto;
+        padding-top: 30px;
+        margin-bottom: 50px;
+        padding-bottom: 30px;
+    }
+
+    .touchUs-card-wrapper {
+        position: relative;
+        padding-top: 0;
+    }
+
+    .touchUs-card-wrapper .touchUs-card {
+        margin-top: 0;
+    }
+    .touchUs-card {
+        padding: 20px 30px 20px;
+    }
+    .commonModal .modal-content{
+        border-radius: 50px;
+        box-shadow: 0 4px 6px 0 rgba(0, 0, 0,  0.16);
+        padding: 20px 15px;
+    }
 }
 
