@@ -279,28 +279,30 @@ label {
 
 .peopleSection {
     position: relative;
+    margin-bottom: 180px;
 }
 
 .peopleSection-boxes {
     position: absolute;
     width: 100%;
-    bottom: 120px;
+    bottom: -180px;
     left: 0;
     right: 0;
     text-align: center;
 }
 
 .peopleSection-boxes .box {
-    box-shadow: 0 10px 9px #00000029;
-    border-radius: 49px 49px 0 0;
-    padding: 30px 15px;
-    width: 216px;
-    height: 313px;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 10px 15px 20px;
+    width: 200px;
+    height: 220px;
     display: inline-flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background: #ffffff;
+    border: 3px solid #87B90E;
 }
 
 .peopleSection-boxes .box img {
@@ -309,26 +311,27 @@ label {
 
 .peopleSection-boxes .box p {
     margin-bottom: 0;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 500;
 }
 
 .peopleSection-boxes .box:not(:last-child) {
-    margin-right: 2rem;
+    margin-right: 1rem;
 }
 
 .jobSection {
     background-size: cover;
     text-align: center;
     color: #ffffff;
-    height: 212px;
-    margin-top: 60px;
+    height: 120px;
     display: inline-flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
     flex-direction: row;
     width: 100%;
-    padding: 20px 10px 30px;
+    padding: 10px 0 0;
+    text-transform: uppercase;
+    margin-top: -100px;
 }
 
 .repaymentsSection .form-group {
@@ -388,7 +391,7 @@ label {
     background-size: cover;
     position: relative;
     width: 100%;
-    min-height: 427px;
+    min-height: 320px;
     margin-bottom: 15px;
 }
 
@@ -553,6 +556,8 @@ footer {
     color: #fff;
     font-size: 12px;
     padding-bottom: 10px;
+    background-position: -10% center !important;
+    background-size: 25% !important;
 }
 
 .heading {
@@ -560,8 +565,9 @@ footer {
 }
 
 footer .content {
-    line-height: 30px;
-    padding-right: 50px;
+    font-size: 14px;
+    line-height: 20px;
+    padding-right: 200px;
 }
 
 .qlink {
@@ -586,16 +592,21 @@ footer .content {
 }
 
 footer .nav-link {
-    font-weight: 700;
     color: #ffffff;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 4px 0;
 }
 
 footer .nav-link:hover {
-    font-weight: 700;
     color: #000000;
 }
 
 @media (max-width: 1199px) {
+    footer {
+        background-size: 45% !important;
+    }
+
     .repaymentsCard {
         width: 100%;
         padding: 20px 20px 40px;
@@ -620,16 +631,24 @@ footer .nav-link:hover {
 }
 
 @media (max-width: 991px) {
+    footer .content{
+        padding-right: 0;
+    }
+    .peopleSection {
+        margin-bottom: 130px;
+    }
     .peopleSection-boxes .box p {
         font-size: 20px;
     }
 
     .peopleSection-boxes .box {
         width: 150px;
-        height: 230px;
+        height: 190px;
         padding: 15px;
     }
-
+    .peopleSection-boxes {
+        bottom: -158px;
+    }
     .peopleSection-boxes .box:not(:last-child) {
         margin-right: 1rem;
     }
@@ -686,7 +705,10 @@ footer .nav-link:hover {
     }
 
     .peopleSection-boxes {
-        bottom: 60px;
+        bottom: 0;
+        position: static;
+        width: 80%;
+        margin: 0 auto;
     }
 
     .peopleSection-boxes .box:not(:last-child) {
@@ -700,7 +722,8 @@ footer .nav-link:hover {
     }
 
     .jobSection {
-        margin-top: 200px;
+        height: 90px;
+        align-items: center;
     }
 
     .timeline .right-bottom, .timeline .top-right {
@@ -721,11 +744,19 @@ footer .nav-link:hover {
         max-width: 16%;
         flex: 0 0 16%;
     }
+    footer {
+        background-size: 65% !important;
+        background-position: -50% center !important;
+    }
+    .peopleSection {
+        margin-bottom: 0;
+    }
 }
 
 @media (max-width: 575px) {
     .peopleSection-boxes {
         position: static;
+        width: 100%;
     }
 
     .peopleSection-boxes .box:not(:last-child) {
@@ -733,12 +764,12 @@ footer .nav-link:hover {
     }
 
     .peopleSection-boxes .box {
-        width: 100%;
+        width: 49%;
     }
 
     .jobSection {
-        margin-top: 0;
-        height: auto;
+        /*margin-top: 0;*/
+        /*height: auto;*/
     }
 
     .circle {
@@ -774,13 +805,19 @@ footer .nav-link:hover {
 
 @media (max-width: 574px) {
     .timeline .right-bottom, .timeline .top-right {
-        left: 20%;
+        left: 27%;
     }
 
     .timeline .top-left, .timeline .left-bottom {
         left: -32%;
     }
 }
+@media (max-width: 414px) {
+    .timeline .right-bottom, .timeline .top-right {
+        left: 19%;
+    }
+}
+
 
 .light-yellow {
     background: rgba(148, 201, 94, 0.06);
