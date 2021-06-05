@@ -14,7 +14,7 @@
 <div class="wrapper">
     <header>
         <nav class="navbar navbar-expand-lg mainNavbar">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <img srcset="assets/img/Logo.svg" src="assets/img/Logo.png" width="185" height="71" class="img-fluid">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNavBar"
@@ -37,7 +37,7 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="car-loan.html">Car Loan</a>
                             <a class="dropdown-item" href="truck.html">Truck Loan</a>
-                            <a class="dropdown-item" href="#">Marine and Leisure</a>
+                            <a class="dropdown-item" href="marine.html">Marine and Leisure</a>
                             <a class="dropdown-item" href="personal-loan.html">Personal Loan</a>
                             <a class="dropdown-item" href="equipment.html">Equipment Loan</a>
                         </div>
@@ -56,7 +56,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">FAQ</a>
+                        <a class="nav-link" href="faq.html">FAQ</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact-us.html">Contact Us</a>
@@ -243,17 +243,76 @@
         </section>
 
 
-
-
-
-
         <section>
             <div class="container-fluid px-0">
                 <img srcset="assets/img/companiess.png" src="assets/img/companiess.png" class="img-fluid">
             </div>
-        </section><br><br>
+        </section>
 
+        <section class="compareSection about-touchUs-section">
+            <div class="container">
+                <h2 class="font-weight-normal text-white">We only use reputable lenders</h2>
+                <p class="text-white">Fill out the following details and one of our car loan specialists will be in contact.</p>
+                <div class="text-center touchUs-card-wrapper">
+                    <div class="row justify-content-center no-gutters">
+                        <div class="col-md-8 col-lg-6">
+                            <div class="touchUs-card">
+                                <h4 class="mb-5">Get in touch with us</h4>
+                                <form id="send-message" method="post" enctype="multipart/form-data">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="text" id="fname" name="fname" class="form-control"
+                                                       placeholder="First name">
+                                                <span style="     float: left; font-size: 12px; color: red; width: 100%;text-align: left; padding: 9px;text-transform: none;" id="fname_error"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="text" id="lname" name="lname" class="form-control"
+                                                       placeholder="Last name">
+                                                <span style="     float: left; font-size: 12px; color: red; width: 100%;text-align: left; padding: 9px;text-transform: none;" id="lname_error"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="email" id="email" name="email" class="form-control"
+                                                       placeholder="Your email">
+                                                <span style="     float: left; font-size: 12px; color: red; width: 100%;text-align: left; padding: 9px;text-transform: none;" id="email_error"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="text" id="phone" name="phone" class="form-control"
+                                                       placeholder="Phone number">
+                                                <span style="     float: left; font-size: 12px; color: red; width: 100%;text-align: left; padding: 9px;text-transform: none;" id="phone_error"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-group">
+                                                <input type="text" id="subject" name="subject" class="form-control"
+                                                       placeholder="Subject">
+                                                <span style="    float: left; font-size: 12px; color: red; width: 100%;text-align: left; padding: 9px;text-transform: none;" id="subject_error"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-group">
+                                                <textarea class="form-control" id="message" placeholder="Write message"></textarea>
+                                                <span style="    float: left; font-size: 12px; color: red; width: 100%;text-align: left; padding: 9px;text-transform: none;" id="message_error"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 text-center mt-4">
+                                            <button type="submit" class="btn commonBtn btn-primary">Send Message</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <section class="common-section questionSection">
             <div class="container">
@@ -299,80 +358,105 @@
             </div>
         </section>
     </main>
-    <footer>
-        <!--        <div class="container">-->
-        <div class="row">
-            <div class="col-lg-1 mb-3">
+    <footer style="background: #87B90E url('assets/img/logo_new.png') no-repeat">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 mb-3">
+                    <h4 class="heading">Pure Capitals finance</h4>
+                    <p class="content">Our team is specialized in all forms Of commercial lending from cars & Trucks to
+                        farms and factories.
+                        We Can finance any commercial Asset or Property in Australia Our team is specialized in all
+                        forms Of
+                        commercial lending from cars & Trucks to farms and factories. We Can finance any commercial
+                        Asset or Property in Austral</p>
+                </div>
+                <div class="col-lg-3 mb-3">
+                    <h4 class="heading">Quick links</h4>
+                    <ul class="list-unstyled mb-0">
+                        <li class="">
+                            <a href="#" target="_blank" class="nav-link"><i style="font-size: 25px;
+                       line-height: 25px;
+                       margin: 0;
+                       color: #ffffff;" class="fa fa-facebook" aria-hidden="true"></i>
 
-            </div>
-            <div class="col-lg-2 mb-3">
-                <img style="width:250px" src="assets/img/fa.png">
-            </div>
-            <div class="col-lg-5 mb-3">
-                <h4 class="heading">Pure Capitals finance</h4>
-                <p class="content">Our team is specialized in all forms Of commercial lending from cars & Trucks
-                    to farms and
-                    factories. We Can finance any commercial Asset or Property in Australia Our team is
-                    specialized in all forms Of commercial lending from cars & Trucks to farms and factories. We
-                    Can finance any commercial Asset or Property in Australia</p>
-            </div>
-            <div class="col-lg-4 mb-3">
-                <h4 class="heading">Quick links</h4>
-                <div class="row no-gutters">
-                    <div class="col-md-1">
-                        <a href=""><i style="font-size: 25px;
-    line-height: 25px;
-    margin: 0;
-    color: #ffffff;" class="fa fa-facebook" aria-hidden="true"></i></a>
-                    </div>
-                    <div class="col-md-1">
-                        <i style="font-size: 25px;
-    line-height: 25px;
-    margin: 0;
-    color: #ffffff;" class="fa fa-instagram" aria-hidden="true"></i>
-                    </div>
-                    <div class="col-md-1">
-                        <i  style="font-size: 25px;
-    line-height: 25px;
-    margin: 0;
-    color: #ffffff;" class="fa fa-linkedin" aria-hidden="true"></i>
-                    </div>
+                                &nbsp; &nbsp; &nbsp;
+                                <i style="font-size: 25px;
+                       line-height: 25px;
+                       margin: 0;
+                       color: #ffffff;" class="fa fa-instagram" aria-hidden="true"></i>
+                                &nbsp; &nbsp; &nbsp;
 
+
+
+                                <i style="font-size: 25px;
+                       line-height: 25px;
+                       margin: 0;
+                       color: #ffffff;" class="fa fa-linkedin" aria-hidden="true"></i>
+
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="#" target="_blank" class="nav-link">Our features and careers</a>
+                        </li>
+                        <li class="">
+                            <a href="#" target="_blank" class="nav-link">Privacy policy and terms of use</a>
+                        </li>
+                        <li class="">
+                            <a href="#" target="_blank" class="nav-link">Personal and business car loans</a>
+                        </li>
+                    </ul>
+                    <!--                <div class="row no-gutters">-->
+                    <!--                    <div class="col-md-1">-->
+                    <!--                        <a href=""><i style="font-size: 25px;-->
+                    <!--    line-height: 25px;-->
+                    <!--    margin: 0;-->
+                    <!--    color: #ffffff;" class="fa fa-facebook" aria-hidden="true"></i></a>-->
+                    <!--                    </div>-->
+                    <!--                    <div class="col-md-1">-->
+                    <!--                        <i style="font-size: 25px;-->
+                    <!--    line-height: 25px;-->
+                    <!--    margin: 0;-->
+                    <!--    color: #ffffff;" class="fa fa-instagram" aria-hidden="true"></i>-->
+                    <!--                    </div>-->
+                    <!--                    <div class="col-md-1">-->
+                    <!--                        <i  style="font-size: 25px;-->
+                    <!--    line-height: 25px;-->
+                    <!--    margin: 0;-->
+                    <!--    color: #ffffff;" class="fa fa-linkedin" aria-hidden="true"></i>-->
+                    <!--                    </div>-->
+                    <!--                </div>-->
                 </div>
             </div>
-        </div>
+            <!--            <div class="row align-items-center">-->
+            <!--                <div class="col-lg-3 text-center text-lg-left mt-4 mt-lg-0">-->
+            <!--                    <span style="color: #000000">Copyright</span> Pure Capitals finance 2021.-->
+            <!--                </div>-->
+            <!--                <div class="col-lg-8">-->
+            <!--                    <ul class="list-inline mb-0">-->
+            <!--                        <li class="list-inline-item">-->
+            <!--                            <a href="#" target="_blank" class="nav-link">Assets Finance</a>-->
+            <!--                        </li>-->
+            <!--                        <li class="list-inline-item">-->
+            <!--                            <a href="#" target="_blank" class="nav-link">Commercial Loans</a>-->
+            <!--                        </li>-->
+            <!--                        <li class="list-inline-item">-->
+            <!--                            <a href="#" target="_blank" class="nav-link">Partner Network</a>-->
+            <!--                        </li>-->
+            <!--                        <li class="list-inline-item">-->
+            <!--                            <a href="#" target="_blank" class="nav-link">Vehicle Sourcing</a>-->
+            <!--                        </li>-->
+            <!--                        <li class="list-inline-item">-->
+            <!--                            <a href="#" target="_blank" class="nav-link">About Us</a>-->
+            <!--                        </li>-->
+            <!--                    </ul>-->
+            <!--                </div>-->
+            <!--            </div>-->
 
-        <div class="row align-items-center flex-column-reverse flex-lg-row">
-            <div class="col-lg-1 mb-3">
-
-            </div>
-            <div class="col-lg-3 text-center text-lg-left mt-4 mt-lg-0">
-                <span style="color: #000000">Copyright</span> Pure Capitals finance 2021.
-            </div>
-            <div class="col-lg-8">
-                <ul class="list-inline mb-0">
-                    <li class="list-inline-item">
-                        <a href="#" target="_blank" class="nav-link">Assets Finance</a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#" target="_blank" class="nav-link">Commercial Loans</a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#" target="_blank" class="nav-link">Partner Network</a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#" target="_blank" class="nav-link">Vehicle Sourcing</a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#" target="_blank" class="nav-link">About Us</a>
-                    </li>
-                </ul>
-            </div>
         </div>
-        <!--        </div>-->
     </footer>
 
     <!-- Modal -->
+
     <div class="modal fade commonModal" id="getQuoteModal" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
          aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
@@ -384,33 +468,65 @@
                     <div class="text-center mb-4">
                         <img srcset="assets/img/quoteModal.png" src="assets/img/quoteModal.png" class="img-fluid">
                     </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="text" name="fname" class="form-control"
-                                       placeholder="First name">
+                    <form id="send-message1" method="post" enctype="multipart/form-data">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" name="first_name" id="first_name" class="form-control"
+                                           placeholder="First name">
+                                    <span style="     float: left; font-size: 12px; color: red; width: 100%;text-align: left; padding: 9px;text-transform: none;" id="first_name_error"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" name="last_name" id="last_name" class="form-control"
+                                           placeholder="Last name">
+                                    <span style="     float: left; font-size: 12px; color: red; width: 100%;text-align: left; padding: 9px;text-transform: none;" id="last_name_error"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" name="phone_number" id="phone_number" class="form-control"
+                                           placeholder="Phone Number">
+                                    <span style="     float: left; font-size: 12px; color: red; width: 100%;text-align: left; padding: 9px;text-transform: none;" id="phone_number_error"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="email" name="email_client" id="email_client" class="form-control"
+                                           placeholder="Your email">
+                                    <span style="     float: left; font-size: 12px; color: red; width: 100%;text-align: left; padding: 9px;text-transform: none;" id="email_client_error"></span>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <textarea class="form-control" id="message_client" name="message_client" placeholder="Write message"></textarea>
+                                    <span style="     float: left; font-size: 12px; color: red; width: 100%;text-align: left; padding: 9px;text-transform: none;" id="message_client_error"></span>
+                                </div>
+
+                            </div>
+                            <div class="col-12 text-center mt-4">
+                                <button type="submit" class="btn commonBtn btn-primary">Send Message</button>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="text" name="lname" class="form-control"
-                                       placeholder="Last name">
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <input type="email" name="email" class="form-control"
-                                       placeholder="Your email">
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="form-group">
-                                <textarea class="form-control" placeholder="Write message"></textarea>
-                            </div>
-                        </div>
-                        <div class="col-12 text-center mt-4">
-                            <button class="btn commonBtn btn-primary">Send Message</button>
-                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade commonModal" id="success_popup" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+         aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="text-center mb-4">
+                        <img srcset="assets/img/quoteModal.png" src="assets/img/quoteModal.png" class="img-fluid">
+                    </div>
+                    <div class="text-center mb-4">
+                        <h3>Information has been Sent, will get back to you shortly</h3>
                     </div>
                 </div>
             </div>
@@ -423,6 +539,7 @@
 <script src="assets/js/bootstrap.bundle.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/contact-us.js"></script>
 <script>
     var owl = $("#customerSlider");
     owl.owlCarousel({
