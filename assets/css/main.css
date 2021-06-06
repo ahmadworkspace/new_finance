@@ -465,6 +465,10 @@ label {
 .how-it-works.row {
     display: flex;
 }
+.how-it-works.row [class^="col-"], .how-it-works.row [class*=" col-"] {
+    padding-left: 5px;
+    padding-right: 5px;
+}
 
 .how-it-works.row .col-2 {
     display: inline-flex;
@@ -527,12 +531,12 @@ label {
 }
 
 .timeline .left-bottom {
-    left: -50%;
+    left: -28%;
     top: calc(50% - 3px);
 }
 
 .timeline .top-left {
-    left: -50%;
+    left: -28%;
     top: -37%;
 }
 
@@ -546,10 +550,28 @@ label {
 }
 
 .timeline-section .content.left {
-    margin-left: -30px;
+    margin-left: -10px;
+    padding-right: 65px;
 }
+.how-it-works.justify-content-end .content {
+    padding-left: 60px;
+}
+.timeline.last .col-5 {
+    -ms-flex: 0 0 10%;
+    flex: 0 0 10%;
+    max-width: 10%;
+}
+.timeline.last .last-corner {
+    overflow: visible;
+}
+.timeline.last .corner.left-bottom {
 
+    height: 60px;
+    border-width: 8px 8px 0 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
 
+}
 footer {
     background: #94C95E;
     padding-top: 50px;
@@ -611,9 +633,11 @@ footer .nav-link:hover {
         width: 100%;
         padding: 20px 20px 40px;
     }
-
+    .how-it-works img {
+        width: 150px;
+    }
     .timeline-section .content.left {
-        margin-left: -15px;
+        margin-left: 0px;
     }
 
     footer .nav-link {
@@ -680,7 +704,7 @@ footer .nav-link:hover {
     }
 
     .timeline-section .col-2.text-right,
-    .timeline-section .col-4.text-left {
+    .timeline-section .col-2.text-left {
         display: none;
     }
 
@@ -694,16 +718,29 @@ footer .nav-link:hover {
         margin-left: 0;
     }
 
-    .timeline-section .timeline .col-3 {
+    .timeline-section .timeline .col-5 {
         width: 100%;
         max-width: 100%;
         flex: 0 0 66%;
     }
 
     .timeline-section .content.left {
-        margin-left: 15px;
+        margin-left: 5px;
+        padding-right: 0;
     }
-
+    .how-it-works.justify-content-end .content{
+        padding-left: 0;
+    }
+    .how-it-works.justify-content-end{
+        justify-content: start;
+    }
+    .how-it-works.justify-content-end .col-5,
+    .how-it-works.row .col-5
+    {
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 66%;
+    }
     .peopleSection-boxes {
         bottom: 0;
         position: static;
@@ -743,6 +780,11 @@ footer .nav-link:hover {
         width: 16%;
         max-width: 16%;
         flex: 0 0 16%;
+    }
+    .timeline.last .col-5 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
     }
     footer {
         background-size: 65% !important;
